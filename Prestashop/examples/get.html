@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Prestashop AJAX Call</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<hr>
+	<div class="container">
+
+		<a class="btn btn-info" onclick="getSummary()">Shares</a>
+
+		<div id="summary">This is Text.</div>
+
+	</div>
+
+
+	<script type="text/javascript">
+		function getSummary()
+		{ 
+		    $.ajax({ 
+		        url : 'http://localhost/zenstore/api/customers/1',
+		        //data:null,
+		        type: 'GET',
+		        // dataType: 'json',
+		        
+
+		        success: function(data){
+		            $('#summary').html(data);
+		        }
+		    });
+		}
+	</script>
+
+
+
+
+
+</body>
+</html>
