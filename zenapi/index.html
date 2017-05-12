@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Prestashop AJAX Call</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<hr>
+	<div class="fluid-container">
+		<div class="col-sm-6">
+			<a class="btn btn-info" onclick="getSummary()">Get Customers</a>
+
+			<div id="summary">Result Will come here!</div>
+		</div>
+
+		<div class="col-sm-6">
+			<a class="btn btn-info" onclick="getOrder()">Get Orders</a>
+
+			<div id="orders">Result Will come here!</div>
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript">
+		function getSummary()
+		{ 
+		    $.ajax({ 
+		        url : 'http://localhost/zenapi/customerservice/getcustomer',
+		        type: 'GET',
+		        success: function(result){
+		            $('#summary').html(result);
+		        }
+		    });
+		}
+	</script>
+
+	<script type="text/javascript">
+		function getOrder()
+		{ 
+		    $.ajax({ 
+		        url : 'http://localhost/zenapi/orderservice/getorder',
+		        type: 'GET',
+		        success: function(result){
+		            $('#orders').html(result);
+		        }
+		    });
+		}
+	</script>
+
+
+</body>
+</html>
