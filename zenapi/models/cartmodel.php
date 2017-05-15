@@ -1,33 +1,33 @@
 <?php	
 
-	class CustomerServiceModel extends Model
+	class cartModel extends Model
 	{
 		public function Index()
 		{
 			echo "Mr. Manjeet! This Page is working fine.";
 		}
 
-		// Get All Customers LIst
-		public function getAllCustomers()
+		// Get All Cart
+		public function getAllCart()
 		{
 			// WebService Start here
 			try
 			{
 				$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 
-				// Option array of webservice to get customer resource
-				$opt['resource'] = 'customers';
+				// Option array of webservice to get cart resource
+				$opt['resource'] = 'carts';
 
 				$opt = array(
-					'resource' 		=> 'customers',
+					'resource' 		=> 'carts',
 					'output_format'	=> 'JSON',
-					'display' 		=> '[id, firstname, lastname, email]',
+					'display' 		=> '[id, id_customer, id_guest, id_shop, id_carrier, id_shop_group]',
 				);
 
 				$result = $webService->get($opt);
 
-				// Get the elements form children of customers markup 'customer'
-				$resource = $result->customers->children();
+				// Get the elements form children of carts markup 'cart'
+				$resource = $result->carts->children();
 			} 
 			catch(PrestaShopWebserviceException $e)
 			{
@@ -40,18 +40,18 @@
 		}
 
 
-		// New user Registration
-		public function registerNewCustomer()
+		// Add new cart
+		public function addNewCart()
 		{
-			// Here we use the WebService to get the schema of "customers" resource
+			// Here we use the WebService to get the schema of "carts" resource
 			try
 			{
 				$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 
-				$opt = array('resource' => 'customers');
+				$opt = array('resource' => 'carts');
 
 				if (isset($_GET['Create']))
-					$xml = $webService->get(array('url' => PS_SHOP_PATH.'/api/customers?schema=blank'));
+					$xml = $webService->get(array('url' => PS_SHOP_PATH.'/api/carts?schema=blank'));
 				else
 					$xml = $webService->get($opt);
 				$resources = $xml->children()->children();
@@ -74,7 +74,7 @@
 				}
 				try
 				{
-					$opt = array('resource' => 'customers');
+					$opt = array('resource' => 'carts');
 					if ($_GET['Create'] == 'Creating')
 					{
 						$opt['postXml'] = $xml->asXML();
@@ -93,7 +93,7 @@
 			}
 
 			// We set the Title
-			echo '<h1>Customer\'s ';
+			echo '<h1>Cart\'s ';
 			if (isset($_GET['Create'])) echo 'Creation';
 			else echo 'List';
 			echo '</h1>';
@@ -144,20 +144,20 @@
 		}
 
 
-		// Update Customer
-		public function updateCustomer()
+		// Update Cart
+		public function updateCart()
 		{
-			// First : We always get the customer's list or a specific one
+			// First : We always get the cart's list or a specific one
 			try
 			{
 				$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 
-				$opt = array('resource' => 'customers');
+				$opt = array('resource' => 'carts');
 				if (isset($_GET['id']))
 					$opt['id'] = $_GET['id'];
 				$xml = $webService->get($opt);
 
-				// Here we get the elements from children of customer markup which is children of prestashop root markup
+				// Here we get the elements from children of address markup which is children of prestashop root markup
 				$resources = $xml->children()->children();
 			}
 			catch (PrestaShopWebserviceException $e)
@@ -180,7 +180,7 @@
 				// And call the web service
 				try
 				{
-					$opt = array('resource' => 'customers');
+					$opt = array('resource' => 'carts');
 					$opt['putXml'] = $xml->asXML();
 					$opt['id'] = $_GET['id'];
 					$xml = $webService->edit($opt);
@@ -200,12 +200,12 @@
 			// UI
 
 			// We set the Title
-			echo '<h1>Customer\'s ';
+			echo '<h1>Cart\'s ';
 			if (isset($_GET['id'])) echo 'Update';
 			else echo 'List';
 			echo '</h1>';
 
-			// We set a link to go back to list if we are in customer's details
+			// We set a link to go back to list if we are in cart's details
 			if (isset($_GET['id']))
 				echo '<a href="?">Return to the list</a>';
 
@@ -218,7 +218,7 @@
 			echo '<tr>';
 			if (!isset($_GET['id']))
 			{
-				//Show list of customers
+				//Show list of cart
 				echo '<th>Id</th><th>More</th></tr>';
 				foreach ($resources as $resource)
 				{
@@ -229,7 +229,7 @@
 			}
 			else
 			{
-				//Show customer form
+				//Show cart form
 				echo '</tr>';
 				foreach ($resources as $key => $resource)
 				{
@@ -246,8 +246,9 @@
 				echo '<input type="submit" value="Update"></form>';
 		}
 
-		// Delete a Customer
-		public function deleteCustomer()
+
+		// Delete an cart
+		public function deleteCart()
 		{
 			if (isset($_GET['DeleteID']))
 			{
@@ -262,7 +263,7 @@
 				{
 					$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 					// Call for a deletion, we specify the resource name and the id of the resource in order to delete the item
-					$webService->delete(array('resource' => 'customers', 'id' => intval($_GET['DeleteID'])));
+					$webService->delete(array('resource' => 'carts', 'id' => intval($_GET['DeleteID'])));
 					// If there's an error we throw an exception
 					echo 'Successfully deleted !<meta http-equiv="refresh" content="5"/>';
 				}
@@ -277,11 +278,11 @@
 			}
 			else
 			{
-				// Else get customers list
+				// Else get cart list
 				try
 				{
 					$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
-					$opt = array('resource' => 'customers');
+					$opt = array('resource' => 'carts');
 					$xml = $webService->get($opt);
 					$resources = $xml->children()->children();
 				}
@@ -294,7 +295,7 @@
 					else echo 'Other error';
 				}
 
-				echo '<h1>Customers List</h1>';
+				echo '<h1>Cart List</h1>';
 				echo '<table border="5">';
 				if (isset($resources))
 				{
@@ -314,5 +315,7 @@
 				}
 			}
 		}
+
+
+
 	}
-	
