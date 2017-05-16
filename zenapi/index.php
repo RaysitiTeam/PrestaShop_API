@@ -20,12 +20,24 @@
 	require('controllers/ordercontroller.php');
 	require('controllers/addresscontroller.php');
 	require('controllers/cartcontroller.php');
+	require('controllers/categorycontroller.php');
+	require('controllers/manufacturercontroller.php');
+	require('controllers/contactcontroller.php');
+	require('controllers/countrycontroller.php');
+	require('controllers/guestcontroller.php');
+	require('controllers/combinationcontroller.php');
 
 	// Require Models
 	require('models/customerservicemodel.php');
 	require('models/orderservicemodel.php');
 	require('models/addressmodel.php');
 	require('models/cartmodel.php');
+	require('models/categorymodel.php');
+	require('models/manufacturermodel.php');
+	require('models/contactmodel.php');
+	require('models/countrymodel.php');
+	require('models/guestmodel.php');
+	require('models/combinationmodel.php');
 
 	$bootstrap = new Bootstrap($_GET);
 
