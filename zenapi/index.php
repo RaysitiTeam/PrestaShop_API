@@ -26,6 +26,22 @@
 	require('controllers/countrycontroller.php');
 	require('controllers/guestcontroller.php');
 	require('controllers/combinationcontroller.php');
+	require('controllers/cartrulecontroller.php');
+	require('controllers/configcontroller.php');
+	require('controllers/zonecontroller.php');
+	require('controllers/taxcontroller.php');
+	require('controllers/taxrulecontroller.php');
+	require('controllers/storecontroller.php');
+	require('controllers/stockcontroller.php');
+	require('controllers/productcontroller.php');
+	require('controllers/shopcontroller.php');
+	require('controllers/deliverycontroller.php');
+	require('controllers/carriercontroller.php');
+	require('controllers/groupcontroller.php');
+	require('controllers/employeecontroller.php');
+	require('controllers/imagecontroller.php');
+	require('controllers/invoicecontroller.php');
+	require('controllers/democ.php');
 
 	// Require Models
 	require('models/customerservicemodel.php');
@@ -38,8 +54,25 @@
 	require('models/countrymodel.php');
 	require('models/guestmodel.php');
 	require('models/combinationmodel.php');
+	require('models/cartrulemodel.php');
+	require('models/configmodel.php');
+	require('models/zonemodel.php');
+	require('models/taxmodel.php');
+	require('models/taxrulemodel.php');
+	require('models/storemodel.php');
+	require('models/stockmodel.php');
+	require('models/productmodel.php');
+	require('models/shopmodel.php');
+	require('models/deliverymodel.php');
+	require('models/carriermodel.php');
+	require('models/groupmodel.php');
+	require('models/employeemodel.php');
+	require('models/imagemodel.php');
+	require('models/invoicemodel.php');
+	require('models/demo.php');
 
 	$bootstrap = new Bootstrap($_GET);
+
 
 	$controller = $bootstrap->createController();
 

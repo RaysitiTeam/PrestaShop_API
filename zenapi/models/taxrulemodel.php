@@ -1,33 +1,33 @@
 <?php	
 
-	class cartRuleModel extends Model
+	class taxRuleModel extends Model
 	{
 		public function Index()
 		{
-			echo "Mr. Manjeet! This Combinations Page is working fine.";
+			echo "Mr. Manjeet! This Page is working fine.";
 		}
 
-		// Get All Cart rulr
-		public function getAllCartRule()
+		// Get All Tax Rule
+		public function getAllTaxRule()
 		{
 			// WebService Start here
 			try
 			{
 				$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 
-				// Option array of webservice to get guest resource
-				$opt['resource'] = 'cart_rules';
+				// Option array of webservice to get tax Rule resource
+				$opt['resource'] = 'tax_rules';
 
 				$opt = array(
-					'resource' 		=> 'cart_rules',
+					'resource' 		=> 'tax_rules',
 					'output_format'	=> 'JSON',
-					'display' 		=> '[id]',
+					'display' 		=> '[id, id_tax_rules_group, id_state, id_country, zipcode_from, zipcode_to, id_tax, behavior]',
 				);
 
 				$result = $webService->get($opt);
 
-				// Get the elements form children of cart rules markup 'cart_rule'
-				$resource = $result->cart_rules->children();
+				// Get the elements form children of taxes markup 'tax'
+				$resource = $result->taxes->children();
 			} 
 			catch(PrestaShopWebserviceException $e)
 			{
@@ -40,18 +40,18 @@
 		}
 
 
-		// Add new Cart Rule
-		public function addNewCartRule()
+		// Add new Tax
+		public function addNewTaxRule()
 		{
-			// Here we use the WebService to get the schema of "cart rules" resource
+			// Here we use the WebService to get the schema of "tax Rule" resource
 			try
 			{
 				$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 
-				$opt = array('resource' => 'cart_rules');
+				$opt = array('resource' => 'tax_rules');
 
 				if (isset($_GET['Create']))
-					$xml = $webService->get(array('url' => PS_SHOP_PATH.'/api/customers?schema=blank'));
+					$xml = $webService->get(array('url' => PS_SHOP_PATH.'/api/tax_rules?schema=blank'));
 				else
 					$xml = $webService->get($opt);
 				$resources = $xml->children()->children();
@@ -74,7 +74,7 @@
 				}
 				try
 				{
-					$opt = array('resource' => 'cart_rules');
+					$opt = array('resource' => 'tax_rules');
 					if ($_GET['Create'] == 'Creating')
 					{
 						$opt['postXml'] = $xml->asXML();
@@ -93,7 +93,7 @@
 			}
 
 			// We set the Title
-			echo '<h1>Cart Rule\'s ';
+			echo '<h1>Tax Rule\'s ';
 			if (isset($_GET['Create'])) echo 'Creation';
 			else echo 'List';
 			echo '</h1>';
@@ -143,20 +143,20 @@
 
 		}
 
-		// Update Cart Rule
-		public function updateCartRule()
+		// Update Tax Rule
+		public function updateTaxRule()
 		{
-			// First : We always get the cart Rule's list or a specific one
+			// First : We always get the Tax Rule's list or a specific one
 			try
 			{
 				$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 
-				$opt = array('resource' => 'cart_rules');
+				$opt = array('resource' => 'tax_rules');
 				if (isset($_GET['id']))
 					$opt['id'] = $_GET['id'];
 				$xml = $webService->get($opt);
 
-				// Here we get the elements from children of cart rule markup which is children of prestashop root markup
+				// Here we get the elements from children of tax markup which is children of prestashop root markup
 				$resources = $xml->children()->children();
 			}
 			catch (PrestaShopWebserviceException $e)
@@ -179,7 +179,7 @@
 				// And call the web service
 				try
 				{
-					$opt = array('resource' => 'cart_rules');
+					$opt = array('resource' => 'tax_rules');
 					$opt['putXml'] = $xml->asXML();
 					$opt['id'] = $_GET['id'];
 					$xml = $webService->edit($opt);
@@ -199,12 +199,12 @@
 			// UI
 
 			// We set the Title
-			echo '<h1>Cart Rule\'s ';
+			echo '<h1>Tax Rule\'s ';
 			if (isset($_GET['id'])) echo 'Update';
 			else echo 'List';
 			echo '</h1>';
 
-			// We set a link to go back to list if we are in cart rule's details
+			// We set a link to go back to list if we are in Tax Rule's details
 			if (isset($_GET['id']))
 				echo '<a href="?">Return to the list</a>';
 
@@ -217,7 +217,7 @@
 			echo '<tr>';
 			if (!isset($_GET['id']))
 			{
-				//Show list of cart rule
+				//Show list of taxes
 				echo '<th>Id</th><th>More</th></tr>';
 				foreach ($resources as $resource)
 				{
@@ -228,7 +228,7 @@
 			}
 			else
 			{
-				//Show cart rule form
+				//Show Tax Rule form
 				echo '</tr>';
 				foreach ($resources as $key => $resource)
 				{
@@ -245,14 +245,14 @@
 				echo '<input type="submit" value="Update"></form>';
 		}
 
-		// Delete an Cart Rule
-		public function deleteCartRule()
+		// Delete an Tax Rule
+		public function deleteTaxRule()
 		{
 			if (isset($_GET['DeleteID']))
 			{
 				//Deletion
 
-				echo '<h1>Cart Rule Deletion</h1><br>';
+				echo '<h1>Tax Rule Deletion</h1><br>';
 
 				// We set a link to go back to list
 				echo '<a href="?">Return to the list</a>';
@@ -261,7 +261,7 @@
 				{
 					$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
 					// Call for a deletion, we specify the resource name and the id of the resource in order to delete the item
-					$webService->delete(array('resource' => 'cart_rules', 'id' => intval($_GET['DeleteID'])));
+					$webService->delete(array('resource' => 'tax_rules', 'id' => intval($_GET['DeleteID'])));
 					// If there's an error we throw an exception
 					echo 'Successfully deleted !<meta http-equiv="refresh" content="5"/>';
 				}
@@ -276,11 +276,11 @@
 			}
 			else
 			{
-				// Else get cart rule list
+				// Else get tax rule list
 				try
 				{
 					$webService = new PrestaShopWebservice(PS_SHOP_PATH, PS_WS_AUTH_KEY, DEBUG);
-					$opt = array('resource' => 'cart_rules');
+					$opt = array('resource' => 'tax_rules');
 					$xml = $webService->get($opt);
 					$resources = $xml->children()->children();
 				}
@@ -293,7 +293,7 @@
 					else echo 'Other error';
 				}
 
-				echo '<h1>Cart Rule List</h1>';
+				echo '<h1>Tax Rule List</h1>';
 				echo '<table border="5">';
 				if (isset($resources))
 				{

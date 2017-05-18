@@ -1,6 +1,6 @@
 <?php	
 
-	class cartModel extends Model
+	class cartModel
 	{
 		public function Index()
 		{
