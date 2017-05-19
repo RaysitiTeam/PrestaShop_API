@@ -41,6 +41,13 @@
 	require('controllers/employeecontroller.php');
 	require('controllers/imagecontroller.php');
 	require('controllers/invoicecontroller.php');
+	require('controllers/orderdetailcontroller.php');
+	require('controllers/orderdiscountcontroller.php');
+	require('controllers/orderhistorycontroller.php');
+	require('controllers/orderpaymentcontroller.php');
+	require('controllers/ordercarriercontroller.php');
+	require('controllers/orderstatecontroller.php');
+	require('controllers/productsuppliercontroller.php');
 	require('controllers/democ.php');
 
 	// Require Models
@@ -69,6 +76,13 @@
 	require('models/employeemodel.php');
 	require('models/imagemodel.php');
 	require('models/invoicemodel.php');
+	require('models/orderdetailmodel.php');
+	require('models/orderdiscountmodel.php');
+	require('models/orderhistorymodel.php');
+	require('models/orderpaymentmodel.php');
+	require('models/ordercarriermodel.php');
+	require('models/orderstatemodel.php');
+	require('models/productsuppliermodel.php');
 	require('models/demo.php');
 
 	$bootstrap = new Bootstrap($_GET);
