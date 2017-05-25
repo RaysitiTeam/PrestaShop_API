@@ -1,0 +1,70 @@
+<?php
+//require_once(dirname(__FILE__).'/../../lib/Rc43.php');
+require_once(dirname(__FILE__).'/../../lib/encdec_paytm.php');
+class PaytmResponseModuleFrontController extends ModuleFrontController {
+	public function postProcess() {
+		
+		$order_id      = $_POST['ORDERID'];
+		$res_code      = $_POST['RESPCODE'];
+		$res_desc      = $_POST['RESPMSG'];
+		$checksum_recv = $_POST['CHECKSUMHASH'];
+		$paramList     = $_POST;
+		$secret_key	   = Configuration::get('PayTM_SECRET_KEY');
+		$order_amount  = $_POST['TXNAMOUNT'];
+				
+		$bool = "FALSE";
+
+		$bool = verifychecksum_e($paramList, $secret_key, $checksum_recv);
+		
+		/*if(isset($DR)){
+			$DR = preg_replace("/\s/","+",$DR);
+			$rc4 = new Crypt_RC4($secret_key);
+			$QueryString = base64_decode($DR);
+			$rc4->decrypt($QueryString);
+			$QueryString = explode('&',$QueryString);
+			$response = array();
+			foreach($QueryString as $param){
+				$param = explode('=',$param);
+				$response[$param[0]] = urldecode($param[1]);
+			}
+		}*/		
+		
+			
+		$cartID = $order_id;
+
+		$extras = array();
+		$extras['transaction_id'] = $_POST['TXNID'];
+		$cart = new Cart(intval($cartID));
+		//$amount = $cart->getOrderTotal(true,Cart::BOTH);
+		if ($bool == "TRUE") {
+            if ($res_code == "01") {
+                $responseMsg = "Your Order has Been Processed";
+                $status = Configuration::get('PayTM_ID_ORDER_SUCCESS');
+            } else {
+                $responseMsg = "Transaction Failed, Retry ..!";
+                $status = Configuration::get('PayTM_ID_ORDER_FAILED');
+            }
+        } else {
+
+            $responseMsg = "Security Error ..!";
+            $status = Configuration::get('PayTM_ID_ORDER_FAILED');
+        }
+		
+		$history_message = $responseMsg.'. EBS Payment ID: '.$_POST['TXNID'];		
+
+		//$ebs = new EBS();
+
+		$obj = new Paytm();
+		
+		$obj->validateOrder(intval($cart->id), $status, $order_amount, $obj->displayName, $history_message, $extras, '', false, $cart->secure_key);					
+		$this->context->smarty->assign(array(
+			'status' => $status_code,
+			'responseMsg' => $message,
+			'this_path' => $this->module->getPathUri(),
+			'this_path_ssl' => Tools::getShopDomainSsl(true, true).__PS_BASE_URI__.'modules/'.$this->module->name.'/'
+		));
+		
+		$this->setTemplate('payment_response.tpl');
+
+	}
+}

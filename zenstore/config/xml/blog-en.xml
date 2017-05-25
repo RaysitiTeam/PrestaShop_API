@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EN - Ecommerce blog by PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/en</link>
+	<description></description>
+	<lastBuildDate>Fri, 05 May 2017 08:15:23 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Meet Ana, Ambassador of the month &#124; March 2017</title>
+		<link>https://www.prestashop.com/blog/en/meet-ana-ambassador-month-march-2017/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-ana-ambassador-month-march-2017/#comments</comments>
+		<pubDate>Fri, 05 May 2017 08:14:52 +0000</pubDate>
+		<dc:creator><![CDATA[janicet]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22993</guid>
+		<description><![CDATA[<p>Ana is one of our Spanish Ambassadors, based in Bilbao. Although she joined the Program quite recently, she is already super involved and already organized 4 meetups between October and March! To reward her dedication, we chose her to be our Ambassador of March. Get to know her better by checking out her answers to [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-ana-ambassador-month-march-2017/">Meet Ana, Ambassador of the month | March 2017</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Ana is one of our Spanish Ambassadors, based in Bilbao. Although she joined the Program quite recently, she is already super involved and already organized 4 meetups between October and March! To reward her dedication, we chose her to be our Ambassador of March. Get to know her better by checking out her answers to our questions below.<span id="more-22993"></span></p>
+<h2 style="color: #df0067">About you</h2>
+<p><strong>Three words to best describe you:</strong><br />
+Persistent, hardworking and autodidact</p>
+<p><strong>If you were to write a book about yourself, what would you name it?</strong><br />
+“Ana and her challenges”. I always have some ideas in my head!</p>
+<p><strong>What is your hidden talent?</strong><br />
+I like to do handmade things: jewelry, accessories, clothing,… Not everything is going to be technology! <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p><strong>A favorite line from a movie?</strong><br />
+“Everyone wants to be found” Lost In Translation (Sofia Coppola)</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong><br />
+Traveling across Europe in a van. Of course, in Paris I would visit the offices of PrestaShop <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<h2 style="color: #df0067">About your country</h2>
+<p><img class="aligncenter size-full wp-image-22994" alt="bilbao" src="https://www.prestashop.com/blog/en/files/2017/05/bilbao.jpg" width="1299" height="730" /></p>
+<p style="text-align: center">Bilbao (Flickr | credits : thierry llansades)</p>
+<p><strong>What is your favorite local food or drink?</strong><br />
+A “Chuletón” in a “Sagardotegi” (a local cider house) with friends</p>
+<p><strong>Give us a fun fact about your country:</strong><br />
+In my region the Basque Country, we have the oldest language in Europe, the Euskera, whose origin is still unknown!</p>
+<h2 style="color: #df0067">About PrestaShop</h2>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong></p>
+<p>E-commerce has grown exponentially in the last years, which has forced the merchants, big and small, to adapt to this change.</p>
+<p>PrestaShop is a tool that gives the opportunity to any merchant to have an online presence, in a much more economical, faster and easier-to-use way, that we could have imagined just a decade ago.</p>
+<p>Besides, PrestaShop isn’t only a tool for those who start in e-commerce: because it’s open source, it’s perfectly scalable and customizable to any situation of business need. Other e-commerce solutions don’t have this adaptability, and when the business grows, such solutions aren’t able to grow with it, becoming obsolete.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong></p>
+<p>Version 1.7 is much cleaner and clearer than previous versions, inside and out.</p>
+<p>In the front, the “Classic” theme is much more pleasant than in previous versions, more “minimalist”, following the current trends and creating a clear design with fewer distractions. This allows for a better user experience.</p>
+<p>The back-office is much more functional and intuitive, facilitating its use.</p>
+<p>On the other hand, the decision to change the core of PrestaShop with the introduction of Symfony, I think it’s a good idea and a great step forward that will make PrestaShop even stronger.</p>
+<h2 style="color: #df0067">About being an Ambassador</h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong></p>
+<p>To have offered me the opportunity to be a PrestaShop Ambassador in Bilbao and to be part of the PrestaShop Community.</p>
+<p><strong>What do you like the most about being an Ambassador?</strong></p>
+<p>Feel the positive response of the people from Bilbao and nearby places, who have participated in meetups that have been organized. And the support of the PrestaShop team at all times, even before being an Ambassador <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><strong>A last word?</strong></p>
+<p>I have to thank my return to the world of web development to the fact that I started working with PrestaShop a few years ago.</p>
+<p><strong>Thank you very much Ana!</strong></p>
+<p>Find out more about <a href="http://ambassadors.prestashop.com/ambassador/ana-lozano" target="_blank">Ana’s profile</a> and <a href="https://www.meetup.com/PrestaShop-Bilbao-eCommerce-Meetup/" target="_blank">join her meetup group.</a><br />
+Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form" target="_blank">Apply now</a>.</p>
+<p>See you next month <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-ana-ambassador-month-march-2017/">Meet Ana, Ambassador of the month | March 2017</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-ana-ambassador-month-march-2017/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Meet Mary Ana, Ambassador of the month &#124; April 2017</title>
+		<link>https://www.prestashop.com/blog/en/meet-mary-ana-ambassador-month-april-2017/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-mary-ana-ambassador-month-april-2017/#comments</comments>
+		<pubDate>Fri, 05 May 2017 07:30:01 +0000</pubDate>
+		<dc:creator><![CDATA[janicet]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=23003</guid>
+		<description><![CDATA[<p>Mary Ana, our Ambassador located in Santiago de Chile, is a Social Entrepreneur as well as a Supply Chain Manager and was recognized as “one of the 100 most influent women in her country in 2016” for her social work! So far, she has already organized 2 PrestaShop meetups in Santiago and, as a reward [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-mary-ana-ambassador-month-april-2017/">Meet Mary Ana, Ambassador of the month | April 2017</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Mary Ana, our Ambassador located in Santiago de Chile, is a Social Entrepreneur as well as a Supply Chain Manager and was recognized as “one of the 100 most influent women in her country in 2016” for her social work! So far, she has already organized 2 PrestaShop meetups in Santiago and, as a reward for her amazing involvement, she has been chosen to be our Ambassador of April. We&#8217;ve asked her a few questions, check out her answers below.<span id="more-23003"></span></p>
+<h2 style="color: #df0067">About you</h2>
+<p><strong>Three words to best describe you:</strong><br />
+Social, passionate, cooperative.</p>
+<p><strong>If you were to write a book about yourself, what would you name it?</strong><br />
+&#8220;1000 Closed Doors&#8221; and it would talk about overcoming the obstacles.</p>
+<p><strong>What is your hidden talent?</strong><br />
+Make digital animation</p>
+<p><strong>A favorite line from a movie?</strong><br />
+“There&#8217;s a difference between knowing the path and walking the path.” Morpheus (The Matrix)</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong><br />
+I would go to Venezuela because it’s the country where I was born and it needs me.</p>
+<h2 style="color: #df0067">About your country</h2>
+<p><strong>What is your favorite local food or drink?</strong></p>
+<p>My favorite Chilean drink is “Cola de mono” in English “Monkey&#8217;s tail”. It’s a traditional Chilean drink served during Christmas time. It contains mainly “aguardiente”, milk, sugar, coffee, and cloves.<br />
+<img class="aligncenter size-full wp-image-23004" alt="cola" src="https://www.prestashop.com/blog/en/files/2017/05/cola.jpg" width="600" height="399" /></p>
+<p style="text-align: center"><em>Cola de Mono (credits : restaurante kaialde)</em></p>
+<p><strong>Give us a fun fact about your country:</strong><br />
+In Chile we are used to earthquakes: when there is one measuring 5 or 6 on the Richter scale, it’s normal to see no one moving or reacting! People just look around to make sure that it has already passed. There is a system for measuring earthquakes based on the way Chileans react: it was created for the 2015 Copa América to inform tourists what to do in case of an earthquake.</p>
+<h2 style="color: #df0067">About PrestaShop</h2>
+<p><strong>What is your favorite PrestaShop store?</strong><br />
+<a href="https://www.telasparatapizar.com/" target="_blank">telasparatapizar.com</a> is one of my favorite stores because it’s very tidy, I always put it as an example to show what an online store should look like.</p>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong><br />
+Prestashop delivers endless opportunities, Chilean merchants have great things to sell inside Chile and around the world.<br />
+I am working with small businessmen to improve their businesses and I am supporting them in the creation of their online stores, my goal is that at the end of the year I have supported at least 12 merchants.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong><br />
+I am using the new version now in the stores that I am creating and I consider that it is much friendlier than the previous ones!<br />
+There are still some details to improve, such as the fact that the images of the categories are placed on top of the text of the categories, and there are many translations in Spanish that I am writing down to send as feedback.</p>
+<h2 style="color: #df0067">About being an Ambassador</h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong><br />
+It’s during the meetups when I receive the acknowledgments and comments of the attendees for having helped them, I am determined to support the development of the entrepreneurial ecosystem of Chile and this makes me feel very satisfied.</p>
+<p><strong>What do you like the most about being an Ambassador?</strong><br />
+As an Ambassador for PrestaShop, I feel that I have a solution to deliver to the online commerce needs of small Chilean merchants. This empowers me to make people dare to try PrestaShop as the best solution to sell online.</p>
+<p><strong>A last word?</strong><br />
+I am very proud to be a PrestaShop Ambassador, it is an ecommerce solution that I have known for a long time and I remain completely sure that it is the best way to develop an online store!</p>
+<p><strong>Thank you very much Mary Ana!</strong></p>
+<p>Find out more about <a href="http://ambassadors.prestashop.com/ambassador/mary-montesinos">Mary Ana’s profile</a> and <a href="https://www.meetup.com/PrestaShop-Santiago-Ecommerce-Meetup/">join her meetup group.</a><br />
+Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form">Apply now.</a><br />
+See you next month <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-mary-ana-ambassador-month-april-2017/">Meet Mary Ana, Ambassador of the month | April 2017</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-mary-ana-ambassador-month-april-2017/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop 1.7.1.0 is now available</title>
+		<link>https://www.prestashop.com/blog/en/prestashop-1-7-1-0-now-available/</link>
+		<comments>https://www.prestashop.com/blog/en/prestashop-1-7-1-0-now-available/#comments</comments>
+		<pubDate>Wed, 29 Mar 2017 13:39:45 +0000</pubDate>
+		<dc:creator><![CDATA[Xavier Borderie]]></dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22972</guid>
+		<description><![CDATA[<p>Optimization, performance and functionality are the major themes in this release A few months ago we introduced you to PrestaShop 1.7, a major release that featured big improvements to the user experience. Today, we’re very happy to announce the availability of PrestaShop 1.7.1.0! Thanks to the feedback from our user community and hard work from [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/prestashop-1-7-1-0-now-available/">PrestaShop 1.7.1.0 is now available</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h2><strong><span style="color: #00ccff">Optimization, performance and functionality are the major themes in this release</span></strong></h2>
+<p>A few months ago we <a href="https://www.prestashop.com/blog/en/prestashop-1-7-now-available-discover-new-functions/" target="_blank">introduced you to PrestaShop 1.7</a><b>, </b>a major release that featured big improvements to the <a href="https://www.prestashop.com/blog/en/sell-faster-enhancing-user-experience-daily-basis/" target="_blank">user experience</a>. Today, we’re very happy to announce the availability of <a href="https://www.prestashop.com/en/download" target="_blank"><strong>PrestaShop 1.7.1.0</strong></a>! Thanks to the feedback from our user community and hard work from our product team, there are over 480 improvements (pull requests) in this new release. Here is an overview of PrestaShop 1.7.1.0:<br />
+<span id="more-22972"></span></p>
+<h2><strong><span style="color: #00ccff">More 1.6 modules are now available in version 1.7.1.0</span></strong></h2>
+<p>Several modules that were in 1.6 are now available for 1.7 including:</p>
+<p>-       the <b>Best Sales</b> module<br />
+-       the <b>New Products</b> module<br />
+-       the <b>Cross-Selling</b> module<br />
+-       the <b>PayPal</b> module</p>
+<h2><span style="color: #00ccff"><b>Optimized back-office navigation for mobile</b></span></h2>
+<p>We did a lot of work to improve the responsiveness of back-office browsing. This means that you can easily browse your back-office from all mobile devices. In addition, we’ve reworked the shortcut keys to make them more intuitive.</p>
+<h2><span style="color: #00ccff"><b>1-click upgrades from 1.6 and 1.7.</b></span></h2>
+<p>If you have a PrestaShop store running on 1.6 or 1.7, we now have a 1-click upgrade so you can migrate your existing store to version 1.7.1.0. Please see our <a href="http://build.prestashop.com/news/updated-1-click-upgrade-module/" target="_blank">dedicated blog article</a> for more information about this process.</p>
+<h2><span style="color: #00ccff"><b>Numerous improvements for contributors to PrestaShop</b></span></h2>
+<p>Version 1.7.1.0 has several important improvements to the way that translations are managed. For developers, multiple new hooks have been added, and we made a number of enhancements to the Starter Theme. To see a full list of the improvements for contributors, please visit our <a href="http://build.prestashop.com/" target="_blank">tech blog</a>.</p>
+<h2><span style="color: #00ccff"><b>The update module makes the move from version 1.6 to 1.7 easier.</b></span></h2>
+<p>The ‘upgrade all modules’ button is now included in 1.7.1. Updating modules individually was time consuming, particularly when an update was available for many modules. With version 1.7.1, you can update all modules with a single-click.</p>
+<p>Finally, we’ve improved the overall performance of 1.7.1, and the release is now available in 7 languages, <i>with more on the way.</i><i> </i></p>
+<p>We would like to take this opportunity to thank the 69 contributors from around the world who made the 1.7.1 our best version ever. We couldn’t do all of this without you! If you would like to take part in future release testing, please register with our <a href="http://www.prestashop.com/club/" target="_blank">User Club</a>.</p>
+<div class="text-center"><a class="btn" style="background-color: #25b9d7;border: 1px solid #25b9d7;border-bottom: 3px solid #25b9d7;margin: 20px 0 0;color: #fff" href="https://www.prestashop.com/en/download" target="_blank"> Download the 1.7.1 release</a></div>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/prestashop-1-7-1-0-now-available/">PrestaShop 1.7.1.0 is now available</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/prestashop-1-7-1-0-now-available/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Top 10 Features to boost sales and run your e-commerce business more efficiently</title>
+		<link>https://www.prestashop.com/blog/en/top-10-features-boost-sales-run-e-commerce-business-efficiently/</link>
+		<comments>https://www.prestashop.com/blog/en/top-10-features-boost-sales-run-e-commerce-business-efficiently/#comments</comments>
+		<pubDate>Thu, 16 Mar 2017 16:47:05 +0000</pubDate>
+		<dc:creator><![CDATA[emmanuelfages]]></dc:creator>
+				<category><![CDATA[Ecommerce Trends]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22954</guid>
+		<description><![CDATA[<p>In an ever growing and competitive online market, you are always looking for the right tools and features to help you sprint ahead. That’s why we offer innovative built-in features to boost your sales and run your e-commerce business more efficiently. Run all types of products Key features: type of products to create, deep description [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/top-10-features-boost-sales-run-e-commerce-business-efficiently/">Top 10 Features to boost sales and run your e-commerce business more efficiently</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>In an ever growing and competitive online market, you are always looking for the right tools and features to help you sprint ahead. That’s why we offer innovative built-in features to boost your sales and run your e-commerce business more efficiently.<span id="more-22954"></span></p>
+<h2><span style="color: #00ccff;">Run all types of products</span></h2>
+<p>Key features: type of products to create, deep description</p>
+<p>Create and manage physical, digital, downloadable or bundled products with ability to add variants by going deeper in the description of them. You can also promote your items by configuring features regarding SEO, sales date, cross-selling.</p>
+<p style="text-align: center;"><a href="https://www.prestashop.com/blog/en/files/2017/03/PS17-1.png" target="_blank"><img class="aligncenter  wp-image-22959" alt="PS17-1" src="https://www.prestashop.com/blog/en/files/2017/03/PS17-1.png" width="1875" height="989" /></a></p>
+<h2><span style="color: #00ccff;">Design the storefront</span></h2>
+<p>Key features: starter theme, classic theme customization</p>
+<p>The default Classic theme has been stripped down to enable an easier customization of the template. This enables a better merchandising of your products  and an higher conversion rate in the store. Your team contains a developer ? Get the template of your dreams by fully configuring your storefront in a minimum amount of time.</p>
+<h2><span style="color: #00ccff;">Configure the store</span></h2>
+<p>Key features: Time-to-market, large range of features</p>
+<p>A large range of features is available on PrestaShop to quickly configure your store: configure payment methods and shipping carriers, set taxes, display legal information with intuitive features to reduce the time-to-market of your shop.</p>
+<h2><span style="color: #00ccff;">Fulfill the orders</span></h2>
+<p>Smoothly fulfill the orders thanks to detailed view of each of them and automatized emails sendings process  to allow the customers to track their orders.</p>
+<p style="text-align: center;"><a href="https://www.prestashop.com/blog/en/files/2017/03/17-order.png" target="_blank"><img class="aligncenter  wp-image-22961" alt="17 order" src="https://www.prestashop.com/blog/en/files/2017/03/17-order.png" width="1885" height="955" /></a></p>
+<h2><span style="color: #00ccff;">Merchandise the store</span></h2>
+<p>Key features: price management, cross-selling</p>
+<p>Animate your storefront and highlight your new arrivals or your bestsellers items, increase sales thanks to a full management of your pricing policy and increase average order value using cross &amp; upselling.</p>
+<h2><span style="color: #00ccff;">Get Insights</span></h2>
+<p>Key features: large range of data</p>
+<p>PrestaShop let you get a lot of data about your store performance. Track your sales depending on product or categories, know everything about your customer behavior and prevent loss of sales by targeting issues to fix in your store.</p>
+<p style="text-align: center;"><a href="https://www.prestashop.com/blog/en/files/2017/03/17-dashboard.png" target="_blank"><img class="aligncenter  wp-image-22960" alt="17 dashboard" src="https://www.prestashop.com/blog/en/files/2017/03/17-dashboard.png" width="1894" height="988" /></a></p>
+<h2><span style="color: #00ccff;">Store expansion</span></h2>
+<p>Key features: international, marketplaces/price comparison sites</p>
+<p>Spread your store on social media, expand your shop to new countries, export your catalog on the main marketplaces and price comparison sites for free (Google Shopping, eBay&#8230;) or by using addons. All these tools will enable you to extend your presence and generate sales or visits from everywhere.</p>
+<h2><span style="color: #00ccff;">Manage employees</span></h2>
+<p>Key features: set permissions, create employee profiles</p>
+<p>Set access to all your employees, agency and freelancers in minutes with employee profiles and user permissions. You can also get the record of all the actions made your admin panel.</p>
+<h2><span style="color: #00ccff;">Run your customer service</span></h2>
+<p>Key features: request segmentation, reply templates, return process</p>
+<p>Run an efficient customer service by segmenting your customers’ requests and creating to templates to reduce response time and better satisfy your customers. You can also automatize the return processes and let your customers track their progress.</p>
+<p>Not using a shopping cart that lets you do all of the above? <a href="https://www.prestashop.com/en/download" target="_blank">Download PrestaShop</a> today and start running a profitable online store.</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/top-10-features-boost-sales-run-e-commerce-business-efficiently/">Top 10 Features to boost sales and run your e-commerce business more efficiently</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/top-10-features-boost-sales-run-e-commerce-business-efficiently/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Successfully Migrate Your E-Commerce Site</title>
+		<link>https://www.prestashop.com/blog/en/successfully-migrate-e-commerce-site/</link>
+		<comments>https://www.prestashop.com/blog/en/successfully-migrate-e-commerce-site/#comments</comments>
+		<pubDate>Thu, 16 Mar 2017 15:34:43 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22951</guid>
+		<description><![CDATA[<p>Migrating to PrestaShop generally happens when redesigning an e-commerce site. The aim is to optimize the site&#8217;s performance to increase sales. It is a tricky operation that should be handled methodically to avoid errors and pitfalls. Our method relies on three key points: 1/ Preparing the Migration Any migration to PrestaShop requires thinking about issues [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/successfully-migrate-e-commerce-site/">Successfully Migrate Your E-Commerce Site</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Migrating to PrestaShop generally happens when redesigning an e-commerce site.</p>
+<p>The aim is to optimize the site&#8217;s performance to increase sales. It is a tricky operation that should be handled methodically to avoid errors and pitfalls.</p>
+<p><span id="more-22951"></span></p>
+<p>Our method relies on three key points:</p>
+<h2><span style="color: #25b9d7">1/ Preparing the Migration</span></h2>
+<p>Any migration to PrestaShop requires thinking about issues such as ergonomics, design, tools, features, the target market, etc. Those points are essential because they determine the project’s overall design. It is possible to get an idea of the new site in its entirety using in-depth analysis, for coherence, effectiveness and increased sales.</p>
+<p>Your store&#8217;s migration must fit into your strategy. What are your ambitions and objectives? Your PrestaShop project analysis and recommendations make it possible to launch actions that will help you achieve your goal.</p>
+<h2><span style="color: #25b9d7">2/ Overcoming Technical Constraints and Migrating Data</span></h2>
+<p>This is the core stage of the migration. When the site uses a solution that is already known on the market, there are approved methods for securely migrating data and maintaining its integrity. However, some e-commerce sites use lesser-known or less specific solutions which require examination before being able to proceed. We carry out a thorough technical analysis to collect and integrate data, in line with PrestaShop&#8217;s standards.</p>
+<p>Next comes the quality analysis of the site: SEO, product photos, descriptions, product specifications, etc. There are many fundamental marketing requirements that your agency will be able to help you with.</p>
+<h2><span style="color: #25b9d7">3/ The Strategic Issue of SEO</span></h2>
+<p>This is the backbone of the migration, the foundation on which your site&#8217;s future is built. To maintain the site&#8217;s SEO value, we redirect all of the site&#8217;s URLs: home page, product specifications, categories, CMS pages, etc., and explore all the options to preserve the site&#8217;s SEO value so that the transfer goes as smoothly as possible. The strategic issue behind SEO is extremely sensitive; if badly managed, it is a huge risk for the site.</p>
+<p>As a general rule, we recommend using the redesigned site launch to create an event, such as an online game, or a press campaign or event. The right communication medium is always a good way to generate buzz and traffic for your site, supporting the migration.</p>
+<p>A Few Words From Axome</p>
+<p><a href="https://www.prestashop.com/en/web-agency-partners/platinum/axome">Axome</a> is the e-commerce brand of the communication agency Trenta. Our job is to create value for brands by developing B2B and B2C strategies.</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/successfully-migrate-e-commerce-site/">Successfully Migrate Your E-Commerce Site</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/successfully-migrate-e-commerce-site/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Four Ways to Use Discount Coupons to Achieve Your Objectives</title>
+		<link>https://www.prestashop.com/blog/en/four-ways-use-discount-coupons-achieve-objectives/</link>
+		<comments>https://www.prestashop.com/blog/en/four-ways-use-discount-coupons-achieve-objectives/#comments</comments>
+		<pubDate>Tue, 14 Mar 2017 06:00:18 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22941</guid>
+		<description><![CDATA[<p>Using coupons in e-commerce has become a commonplace marketing strategy, but is very effective when done correctly. With one in two purchases being made with a promotional code, not using them would be a mistake. Nevertheless, how can you avoid reducing your margin and losing revenue without using promotions? In this video, experts from online [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/four-ways-use-discount-coupons-achieve-objectives/">Four Ways to Use Discount Coupons to Achieve Your Objectives</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Using coupons in e-commerce has become a commonplace marketing strategy, but is very effective when done correctly.</p>
+<p>With one in two purchases being made with a promotional code, not using them would be a mistake.<span id="more-22941"></span></p>
+<p>Nevertheless, how can you avoid reducing your margin and losing revenue without using promotions? </p>
+<p>In this video, experts from online marketing specialist Selldorado explain that the success of your promotional strategies lies in the objectives you want to achieve. They provide details on how to use coupons to achieve the 4 main objectives of an e-commerce site. </p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/rbv4Fb_ZiHU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=selldorado">Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/four-ways-use-discount-coupons-achieve-objectives/">Four Ways to Use Discount Coupons to Achieve Your Objectives</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/four-ways-use-discount-coupons-achieve-objectives/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Five tips for a successful redesign of your site’s graphic interface</title>
+		<link>https://www.prestashop.com/blog/en/five-tips-successful-redesign-sites-graphic-interface/</link>
+		<comments>https://www.prestashop.com/blog/en/five-tips-successful-redesign-sites-graphic-interface/#comments</comments>
+		<pubDate>Thu, 02 Mar 2017 06:00:25 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22820</guid>
+		<description><![CDATA[<p>Your store has been online for several months now. Sales are picking up, and now you’re looking to take things to the next level. You’ll need to set yourself apart and create an even stronger identity for better credibility. In other words, you’ll need to redo your site’s graphic interface. Most of the work will [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/five-tips-successful-redesign-sites-graphic-interface/">Five tips for a successful redesign of your site’s graphic interface</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Your store has been online for several months now. Sales are picking up, and now you’re looking to take things to the next level. You’ll need to set yourself apart and create an even stronger identity for better credibility. In other words, you’ll need to redo your site’s graphic interface.<br />
+<span id="more-22820"></span><br />
+Most of the work will be done conjointly with a web agency, the objective being to attract, convince and win over even more potential customers!<br />
+It’s a defining moment in the development of your online business, one that should not be taken lightly if you want to maximize your chance for success.</p>
+<p>To help you out, here is some valuable advice from the web agency Axome:</p>
+<div class="g-ytsubscribe col-centered text-center"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/erGeDq8V8uo?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=axome">Watch more videos</a></div>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/five-tips-successful-redesign-sites-graphic-interface/">Five tips for a successful redesign of your site’s graphic interface</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/five-tips-successful-redesign-sites-graphic-interface/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>6 Tips for a faster E-Commerce Website</title>
+		<link>https://www.prestashop.com/blog/en/6-tips-faster-e-commerce-website/</link>
+		<comments>https://www.prestashop.com/blog/en/6-tips-faster-e-commerce-website/#comments</comments>
+		<pubDate>Wed, 01 Mar 2017 14:57:22 +0000</pubDate>
+		<dc:creator><![CDATA[Cindy Deguingand]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22922</guid>
+		<description><![CDATA[<p>By Timme Hosting The page speed or site speed is a particularly important aspect for a website and even more so for an online shop. Nevertheless, the issue of page speed is often neglected. Everyone has experienced the following situation at least once: you are on a slow site, waiting and waiting for the page to [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/6-tips-faster-e-commerce-website/">6 Tips for a faster E-Commerce Website</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>By <a href="https://timmehosting.de/">Timme Hosting</a></p>
+<p>The page speed or site speed is a particularly important aspect for a website and even more so for an online shop. Nevertheless, the issue of page speed is often neglected. Everyone has experienced the following situation at least once: you are on a slow site, waiting and waiting for the page to load. Finally frustration sets in and you leave the website, hoping to have better luck finding what you were looking for on another, faster website.</p>
+<p><span id="more-22922"></span></p>
+<p><a name="tw-target-text3"></a>Basically we know that page speed affects the satisfaction of visitors and that Google made it an official ranking signal in 2010. So it makes sense to deal with the subject in order to make use of the full potential. The faster the better.</p>
+<p>&nbsp;</p>
+<h2><span style="color: #25b9d7">Page Speed affects the Conversion Rate</span></h2>
+<p>&nbsp;</p>
+<p>The load time of a website can affect its conversion rate, which is an important statistic for e-commerce. Long load times not only cause frustration and dissatisfaction in visitors but more likely potential customers will abort and leave to buy from another supplier.</p>
+<p>Amazon, an e-commerce giant, has calculated that a load time of more than 100 milliseconds will reduce sales by approximately 1%. Even higher are bounce rates in the area of mobile shopping.</p>
+<p>According to an international study from 2015, nearly two thirds (65%) of online shoppers abort and leave a website if loading time exceeds three seconds.</p>
+<p>&nbsp;</p>
+<h2><span style="color: #25b9d7">How to optimize Page Speed</span></h2>
+<p>&nbsp;</p>
+<h3><b></b><span style="color: #fbbb22"><i>1. Image size</i></span></h3>
+<p><a name="tw-target-text4"></a>Images play an important role in the optimization process. Modern websites often include large and high-resolution images. Using compression and choosing a suitable file format can already have a big impact not only on file size but page speed. So it can make quite a difference whether a PNG, GIF or JPG image file is used.</p>
+<h3><b></b><span style="color: #fbbb22"><i>2. File size</i></span></h3>
+<p><a name="tw-target-text5"></a>But the file size and thus loading time can not only be reduced in the case of images. You should ensure a clean source code, free of useless characters, empty spaces and comments. Embedded CSS and JavaScript files should also be merged and compressed.</p>
+<h3><b></b><span style="color: #fbbb22"><i>3. Avoid redirects</i></span></h3>
+<p><a name="tw-target-text6"></a>A relaunch for example can lead to the use of redirects. Each redirect results in a request to the server, increasing the time to load a page. Therefore, redirects should be checked regularly to find out if maybe some of them are unnecessary and can be avoided. Particularly, chains of redirects should not be used at all.</p>
+<h3><b></b><span style="color: #fbbb22"><i>4. Use browser caching</i></span></h3>
+<p><a name="tw-target-text7"></a>The browser can store once retrieved website content in its cache. This will reduce the time to load if the website is visited again. In order to benefit from this, you should enable browser caching for your website. Otherwise, the browser will request all the data again from the server on the next visit.</p>
+<h3><b></b><span style="color: #fbbb22"><i>5. GZIP compression</i></span></h3>
+<p>A server side way to compress your website data is provided by GZIP. Especially for text based files of a website (HTML, CSS, JavaScript), GZIP is particularly suitable. Compression makes the files smaller and the loading times faster.</p>
+<h3><b></b><span style="color: #fbbb22"><i>6. Hosting</i></span></h3>
+<p>Where you host your website or your online shop, which hosting provider you chose, plays a very important part when it comes to load times and page speed. Because even a perfectly programmed and optimized website will perform badly when hosted on a slow server.</p>
+<p>&nbsp;</p>
+<p>In addition to state of the art hardware, the used web server is crucial. An nginx server is high performance and requires much less memory than other web servers. Thereby it can answer more queries per second simultaneously. Even with a lot of website visitors there is little impact on the loading time.</p>
+<p>A good hosting service can provide important advice on how to further improve the page speed of your website through the use of PHP 7 or technologies such as HHVM and HTTP/2 for example.</p>
+<p>&nbsp;</p>
+<h2><b></b><span style="color: #25b9d7">Tools to improve Page Speed</span></h2>
+<p>&nbsp;</p>
+<p>A good point to start optimizing the page speed of your website is to take a look at the information Google offers about your website. In Google Search Console you can see how long it takes Google to load the pages of your website.</p>
+<p>Using Google&#8217;s PageSpeed Insights you can have your website analyzed by Google in terms of page speed. Google then offers fairly detailed suggestions of improvement both for desktop as well as mobile devices. By following those suggestions and improving your website based on them you should already be able to speed things up.</p>
+<p>Tools such as webpagetest.org or pingdom.com offer the opportunity to get to know the</p>
+<p>loading process of a website in more detail. The server connection with all the requests and answers to and from the web server are shown in a detailed diagram. That helps to identify potential.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/6-tips-faster-e-commerce-website/">6 Tips for a faster E-Commerce Website</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/6-tips-faster-e-commerce-website/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Meet Deyson, Ambassador of the month &#124; February 2017</title>
+		<link>https://www.prestashop.com/blog/en/meet-deyson-ambassador-month-february-2017/</link>
+		<comments>https://www.prestashop.com/blog/en/meet-deyson-ambassador-month-february-2017/#comments</comments>
+		<pubDate>Tue, 28 Feb 2017 09:56:51 +0000</pubDate>
+		<dc:creator><![CDATA[floreravaud]]></dc:creator>
+				<category><![CDATA[PrestaShop Ambassadors]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22900</guid>
+		<description><![CDATA[<p>Deyson is our extremely dynamic Ambassador in Rio de Janeiro. He’s always ready to give a talk about PrestaShop or answer your questions. Deyson is always up to something within the city of Rio, a major city in Brazil, where ecommerce is booming. We are very proud to have him at our side to promote [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-deyson-ambassador-month-february-2017/">Meet Deyson, Ambassador of the month | February 2017</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Deyson is our extremely dynamic Ambassador in Rio de Janeiro. He’s always ready to give a talk about PrestaShop or answer your questions. Deyson is always up to something within the city of Rio, a major city in Brazil, where ecommerce is booming. We are very proud to have him at our side to promote the solution in Brazil, that’s why we chose him as Ambassador of the month of February 2017. Do you want to know more about Deyson? Then read the article below.<span id="more-22900"></span></p>
+<h2 style="color: #df0067">About you</h2>
+<p><strong>Three words to best describe you:</strong><br />
+Entrepreneur – Committed – Persistent</p>
+<p><strong>If you were to write a book about yourself, what would you name it?</strong><br />
+The Eternal Apprentice</p>
+<p><strong>What is your hidden talent?</strong><br />
+I am a Kenhi, 1st DAN of Kendo by All Japan Kendo Federation</p>
+<p><strong>A favorite line from a movie? </strong><br />
+&#8220;And what you have done as a team is connect people, connect those people to information. Which is what we do. And more than that, you have the courage to dream. In spite of your obvious and astonishing limitations&#8230;you never gave up on that dream.&#8221; &#8211;  The Internship (Vince Vaughn &amp; Jared Stern)</p>
+<p><strong>If you could travel anywhere right now, where would you go and why?</strong><br />
+I would go to Alaska, I think it must be an amazing place&#8230; wild nature!</p>
+<h2 style="color: #df0067">About your country</h2>
+<p><strong>What is your favorite local food or drink?</strong><br />
+<em>Bobó de camarão</em> is a dish of Afro-Brazilian cuisine.<br />
+Creamy consistency, is made with shrimp sautéed in green spices and coconut milk, mixed in mashed aipim and more palm oil, ginger and dried shrimps. To drink… Coconut water.</p>
+<p><img src="https://www.prestashop.com/blog/en/files/2017/02/food.jpg" alt="food+drink" width="956" height="500" class="aligncenter size-full wp-image-22904" /></p>
+<p><strong>Give us a fun fact about your country:</strong><br />
+Carnival… In Brazil we have carnival, a very lively party that takes place in February. People come from all over the world to see our carnival.</p>
+<h2 style="color: #df0067">About PrestaShop</h2>
+<p><strong>What is your favorite PrestaShop store?</strong><br />
+I do not have one favorite, but I like this shop: <a href="http://www.nature-vie.com/" target="_blank">http://www.nature-vie.com/</a></p>
+<p><strong>What opportunities does PrestaShop provide in your country?</strong><br />
+Brazil has its own characteristics due to its size, but also due to issues related to the economy.</p>
+<p>Brazilians see entrepreneurship as a life option. This is why Brazil is a country with huge possibilities. In my opinion, as a digital marketing professional, the challenge at the moment is to generate visibility for PrestaShop and to promote its adoption, in order to transform PrestaShop into a synonymous of online store.</p>
+<p><strong>What is your feedback on the new major version, PrestaShop 1.7?</strong><br />
+PrestaShop 1.7 represents a very big evolution and demonstrates the vitality of the platform. This creates a lot of security when choosing the platform to build an online store.</p>
+<p>The performance in presenting the products on any devices is excellent. In the case of Brazil, mobile performance is fundamental.<br />
+Looking at the new Back office, I noticed the developers&#8217; concern about facilitating the administrative actions inside the store with the presentation of a clean, well-organized and easy to use environment.<br />
+I really liked this new version!</p>
+<h2 style="color: #df0067">About being an Ambassador</h2>
+<p><strong>What is your proudest moment as a PrestaShop Ambassador?</strong><br />
+I am very proud when I present PrestaShop as an effective solution for an entrepreneur. I am also extremely proud when I hear someone who adopted PrestaShop and created his store after attending one of my meetups.</p>
+<p><strong>What do you like the most about being an Ambassador?</strong><br />
+I am very committed to guiding entrepreneurs to start their business with PrestaShop. I will be happy to continue to help the community as much as I can. Becoming an Ambassador was a great way to help other people and overcome the difficulty of speaking in public and even from going to enjoy lecturing.</p>
+<p>Today, not only do I speak in meetups, but I also make presentations in technical schools, trade associations, social projects and much more&#8230; I am always ready to talk about PrestaShop!</p>
+<p><strong>A last word?</strong><br />
+Thanks to the PrestaShop team for the support and opportunity, for my part I will make many presentations and promote many Meetups about PrestaShop here in Rio de Janeiro in 2017 <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><strong>Thank you very much Deyson!</strong><br />
+Find out more about <a href="http://ambassadors.prestashop.com/ambassador/deyson-thom%C3%A9" target="_blank">Deyson’s profile</a> and <a href="https://www.meetup.com/PrestaShop-Rio-Ecommerce-Meetup/" target="_blank">join his meetup group.</a>&#8221;<br />
+Do you want to become a PrestaShop Ambassador? <a href="http://ambassadors.prestashop.com/application-form" target="_blank">Apply now.</a></p>
+<p>See you next month <img src="https://www.prestashop.com/blog/en/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/meet-deyson-ambassador-month-february-2017/">Meet Deyson, Ambassador of the month | February 2017</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/meet-deyson-ambassador-month-february-2017/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Three reasons eCommerce companies should frequently update product prices</title>
+		<link>https://www.prestashop.com/blog/en/three-reasons-ecommerce-companies-frequently-update-product-prices/</link>
+		<comments>https://www.prestashop.com/blog/en/three-reasons-ecommerce-companies-frequently-update-product-prices/#comments</comments>
+		<pubDate>Thu, 23 Feb 2017 09:18:29 +0000</pubDate>
+		<dc:creator><![CDATA[Preston's Friends]]></dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/en/?p=22893</guid>
+		<description><![CDATA[<p>Every eCommerce company aims to build a sustainable and profitable business. To do so, they should focus on their pricing strategies. Every business, large or small, can benefit from finding new ways to optimize product pricing. But this doesn’t happen by simply assigning a monthly price list to the whole catalog. On the contrary, when [...]</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/three-reasons-ecommerce-companies-frequently-update-product-prices/">Three reasons eCommerce companies should frequently update product prices</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Every eCommerce company aims to build a sustainable and profitable business. To do so, they should focus on <a href="https://www.prestashop.com/blog/en/6-smart-competitive-pricing-tactics-ecommerce-companies-part-12/" target="_blank">their pricing strategies</a>. Every business, large or small, can benefit from finding new ways to optimize product pricing. But this doesn’t happen by simply assigning a monthly price list to the whole catalog. On the contrary, when it comes to pricing, merchants should get as creative as possible with their marketing efforts, because different <a href="https://www.prestashop.com/blog/en/6-smart-competitive-pricing-tactics-ecommerce-companies-part-22/" target="_blank">pricing strategies</a> can dramatically affect their bottom line. Here are three very clear reasons why every eCommerce company should always test and optimize their prices.</p>
+<p><span id="more-22893"></span></p>
+<h2>1- There’s always room for improvement—or a price increase</h2>
+<p>Every eCommerce company faces competitors that are ready to swoop in and welcome customers who abandon carts on your site for a better deal elsewhere. But this doesn’t mean you should engage in a “race to the bottom.” While you may lose some shoppers to competitors who slash prices, you are likely to win new customers who are more interest in a loyal relationship than a one-off sale. Consider focusing on shoppers who already prefer your business and are likely to continue buying from you, even if your prices are slightly higher than what they might find elsewhere.</p>
+<p>Many eCommerce companies play the best-deal game too aggressively. They end up with prices that are so low, even a 5% increase isn’t likely to impact the performance of their best-sellers. This is an opportunity to test a price increase. Using specialized software, companies access an overview of what their competitors are charging for key product categories. Armed with this intelligence, companies can make precise decisions regarding small price increases that allow them to remain competitive. Ideally, you’ll find a balanced price that brings in more money for each item sold, while still maintaining a “best deal” position that attracts buyers.</p>
+<h2>2- Lower costs to increase profitability</h2>
+<p>Prices and costs are on opposite sides of the profitability equation.</p>
+<p>In eCommerce, costs regularly fluctuate. A product’s unit cost is determined from a multitude of factors that change over time. The major share of the unit product cost in eCommerce is the supplier cost, in other words, the unit sales price on the supplier side. The remainder of the unit cost comes from marketing spend and overhead costs for staff, facilities, etc.</p>
+<p>Supplier costs are a big deal for eCommerce companies of all sizes. Deciding on supplier cost generally comes down to two factors: purchase volume and negotiating power. The first is rather simple: the more you buy of a product, the less each individual unit costs. However, negotiating power is more fluid and depends on many factors, like the company&#8217;s market position, the state of the retailer-supplier relationship, whether it’s long-standing or newly established, etc. ECommerce companies should aim to lower unit costs by managing these two variables as smartly as possible.</p>
+<p>Marketing budget and overhead costs also change over time. It’s worth putting energy into optimizing them because they will directly impact the final unit cost.</p>
+<h2>3- Your competitors are changing their prices all the time</h2>
+<p>One of the most important competitive forces in eCommerce is pricing. Online shoppers around the world love a good deal, and they won’t hesitate to drop one company for another if they find one.</p>
+<p>So while eCommerce merchants should avoid price cutting themselves into a corner, they still need to work out a competitive pricing strategy. Finding what this means for each market implies keeping an eye on the competitive landscape, and assessing how pricing decisions will be felt by customers.</p>
+<p>Keeping prices constant, instead of changing them to reflect market movements, puts companies at risk of losing out on profit opportunities and new customers. But doing this intelligently requires competitive pricing knowledge. One of the best and most affordable ways to gain insight is to use an automated competitor price tracking software that suggests price change decisions as soon as they become relevant. The flexibility that <a href="https://prisync.com/?utm_source=prestashop&amp;utm_medium=textlink" target="_blank">automated competitor price tracking and monitoring software</a> brings translates to more frequent opportunities to maximize profits. Smart price adjustments made based on competitor insight can be a powerful tool for eCommerce companies to remain competitive and profitable.</p>
+<h2>Conclusion</h2>
+<p>ECommerce is a competitive landscape, but companies who seek to understand their competition will see it become a strength rather than a threat—start by building a competitive pricing strategy.</p>
+<p><strong>About the Author</strong></p>
+<p><img class="alignleft size-full wp-image-21929" alt="6SmartCompetitivePricingTactics_4" src="https://www.prestashop.com/blog/en/files/2016/07/6SmartCompetitivePricingTactics_4.png" width="144" height="177" />Burc Tanir is an SMB-loving, eCommerce evangelist and the CEO of Prisync.com, the competitor price tracking software, already serving companies from more than 40 countries.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://www.prestashop.com/blog/en/three-reasons-ecommerce-companies-frequently-update-product-prices/">Three reasons eCommerce companies should frequently update product prices</a> appeared first on <a rel="nofollow" href="https://www.prestashop.com/blog/en">EN - Ecommerce blog by PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/en/three-reasons-ecommerce-companies-frequently-update-product-prices/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
